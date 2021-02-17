@@ -1,0 +1,170 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #333333;
+}
+
+.slider_parent {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.slider_container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.last_layer {
+	height: 38%;
+    display: flex;
+    position: absolute;
+    top: 36%;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.middle_layer {
+    height: 46%;
+    display: flex;
+    position: absolute;
+    top: 25%;
+    width: 75%;
+    left: 11.3%;
+    z-index: 1;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.first_layer {
+    height: 65%;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    width: 47%;
+    left: 26%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.first_layer:hover {
+    height: 70%;
+    width: 52%;
+    left: 24%;
+}
+
+.middle_layer .image_holder:hover {
+    height: 220px;
+    width: 50%;
+    left: 22%;
+    margin-top: -3%;
+}
+
+.middle_layer:hover {
+	z-index: 
+}
+
+.last_layer .image_holder:hover {
+	height: 90%;
+    width: 24%;
+    left: 22%;
+    margin-top: -3%;
+    z-index: 1111;
+}
+
+.last_layer .image_holder img {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 26px;
+}
+
+.middle_layer .image_holder img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 26px;
+}
+
+.first_layer .image_holder img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    border-radius: 26px;
+}
+
+.last_layer .image_holder {
+    height: 100px;
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+
+.image_holder img {
+	box-shadow: 0 10px 16px 0 rgb(255 235 59 / 16%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.middle_layer .image_holder {
+	height: 205px;
+     width: 50%; 
+    left: 22%;
+    margin-top: -2%;
+}
+
+.first_layer .image_holder {
+    width: 100%;
+    height: 100%;
+}
+
+.left_arrow {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    background: #333333;
+    left: 0%;
+    top: 36%;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.left_arrow:hover {
+	color:wheat;
+}
+
+.right_arrow:hover {
+	color:wheat;
+}
+
+.right_arrow {
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    background: #333333;
+    right: 0px;
+    top: 36%;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+
+.image_highlighter img {
+	height: 100%;
+	width: 100%;
+}
+
+.slider_heading {
+    font-size: 50px;
+    text-align: center;
+    color: wheat;
+}
